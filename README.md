@@ -1,2 +1,4 @@
-# pythonforscientists.github.io
-HTML files for scraping
+# Python for Scientists
+## Web Resources
+
+This repository contains resources for the Python for Scientists textbook.
