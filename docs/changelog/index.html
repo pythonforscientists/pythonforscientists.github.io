@@ -1,15 +1,86 @@
 <!doctype html>
 <html>
 <head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H6YLCHYKDR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H6YLCHYKDR');
+</script>
   <title>Python for Scientists - Changelog</title>
 </head>
 <body>
   <h1>Python for Scientists</h1>
+  <h3>Version 0.1.9039 - 2022/08/31</h3>
+  <ul>
+    <li>Updated formatting by using pdfLaTeX compiler</li>
+    <li>Version number upgraded to beta-9039</li>
+    <li>
+      Compilation Details
+      <ul>
+        <li>Platform: Windows x86_64 (AMD64)</li>
+        <li>Compiler: pdfTeX 3.141592653-2.6-1.40.24 (MiKTeX 21.12)</li>
+        <li>Preloaded format: pdflatex.fmt<li>
+        <li>LaTeX Version: LaTeX2E</li>
+        <li>31 AUG 2022 12:26</li>
+      </ul>
+    </li>
+  </ul>
   <h2>Open-Source Textbook Changelog</h2>
+  <h3>Version 0.1.9038 - 2022/08/30</h3>
+  <ul>
+    <li>Previous version beta-9037 had incorrect version number published in book</li>
+    <li>Version number upgraded to beta-9038</li>
+    <li>
+      Compilation Details
+      <ul>
+        <li>Platform: macOS Darwin x86_64 (AMD64)</li>
+        <li>Compiler: XeTeX 3.141592653-2.6-0.999994</li>
+        <li>Preloaded format: xelatex 2022.8.30</li>
+        <li>LaTeX Version: LaTeX2E</li>
+        <li>30 AUG 2022 12:12</li>
+      </ul>
+    </li>
+  </ul>
+  <h3>Version 0.1.9037 - 2022/08/30</h3>
+  <ul>
+    <li>Updated formatting and compiled using XeLaTeX - this compiler has better fat trimming</li>
+    <li>Updated incorrect link in Exercise 165</li>
+    <li>Removed evaluation copy markings</li>
+    <li>Version number upgraded to beta-9036</li>
+    <li>Version number upgraded to beta-9037</li>
+    <li>
+      Compilation Details
+      <ul>
+        <li>Platform: macOS Darwin x86_64 (AMD64)</li>
+        <li>Compiler: XeTeX 3.141592653-2.6-0.999994</li>
+        <li>Preloaded format: xelatex 2022.8.30</li>
+        <li>LaTeX Version: LaTeX2E</li>
+        <li>30 AUG 2022 12:01</li>
+      </ul>
+    </li>
+  </ul>
   <h3>Version 0.1.9035 - 2022/04/04</h3>
   <ul>
     <li>Updated links to datafiles to the new static site</li>
     <li>Version number upgraded to 9035</li>
+    <li>
+      Compilation Details
+      <ul>
+        <li>Platform: Windows x86_64 (AMD64)</li>
+        <li>Compiler: pdfLaTeX 1.40.23</li>
+        <li>LaTeX Version: LaTeX2E</li>
+      </ul>
+    </li>
+  </ul>
+  <h2>Active and Known Errata</h2>
+  <ul>
+    <li>The index is not comprehensive. See <a href="https://github.com/pythonforscientists/pythonforscientists/issues/5">PFS Issue 5</a>.</li>
+    <li>When using the XeLaTeX compiler, incorrect and unknown fonts are replaced with XeLaTeX's fonts, which are generic. This can cause some formatting issues. Version beta-9039 will be generated using the pdfLaTeX compiler, which is known to find and use the correct font families.</li>
+    <li>When using the XeLaTeX compiler, the index is not generated. Version beta-9039 will be generated using the pdfLaTeX compiler, which is known to generate the index correctly.</li>
   </ul>
 </body>
 </html>
