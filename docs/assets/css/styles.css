@@ -1,0 +1,16 @@
+#cb-cookie-banner { position: fixed; bottom: 0; left: 0; width: 100%; z-index: 999; border-radius: 0; display: none; }
+
+.sr-only {
+    display:none;
+  }
+  .section{
+    border-radius: 1rem;
+    border-width: 3px;
+    border-style: solid;
+    border-color: grey;
+    margin: 5px;
+    padding: 10px;
+  }
+  p{
+    margin-top: 1rem;
+  }
